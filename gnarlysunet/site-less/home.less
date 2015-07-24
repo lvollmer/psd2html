@@ -1,0 +1,275 @@
+.container{
+    .home-content1{     
+        .slider-area{
+            margin-top: 25px;
+            padding: 5px 5px;
+            border: 1px solid #DDD;
+            border-radius: 8px;
+
+            .carousel-caption{
+                width: 100%;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                padding: 20px;
+                background-color: @black;
+                opacity: 0.8;
+                text-align: left;
+
+                h3{      
+                    font-weight: bold;
+                    font-size: 18px;
+                    color: @mainColor-orange;
+                    text-transform: uppercase;
+                }
+
+                span{
+                    font-size: 15px;
+                    color: @white;
+                }
+
+                .btn-buy{
+                    border: 0;
+                    color: @white;
+                    font-size: 18px;
+                    border-radius: 8px;
+                    text-transform: uppercase;
+                    padding: 10px 20px;
+                    z-index: 50;
+                    position: absolute;
+                    right: 20px;
+                    bottom: 19px;
+
+                    .btnOrange-fixed;
+
+                    &:hover{
+                        text-decoration: none;
+                    }
+                }                           
+            }
+            .carousel-indicators{
+                top: 15px;
+                z-index: 5;
+            }
+        }
+
+        .tab-area{
+            margin-top: 25px;
+            border: 1px solid #DDD;
+            border-radius: 8px;            
+            min-height: 314px;
+
+            .nav-tabs{
+                padding: 20px 20px 0 20px;
+                background: #F9F9F9;
+                border-radius: 8px 8px 0 0;
+
+                li > a{
+                    font-family: @openSan-semibold;
+                    font-size: 18px;
+					color: #555555;
+                }
+				.active{
+					a{
+						color: #000;
+					}
+				}
+            }
+
+            .tab-content{
+                padding: 20px 20px 10px 20px;
+                h5{
+					font-weight: bold;
+					font-size: 14px;
+					color: #000;
+                }
+				p{
+					font-size: 14px;
+					line-height: 20px;
+				}
+                .view{
+                    font-family: @openSan-semibold;
+					font-weight: bold;
+					font-size: 13px;
+					color: #0a5d92 !important;
+                }
+            }
+        }
+    }
+
+    .home-content2{
+        .tiles{
+            margin-top: 25px;
+            border: 1px solid #DDD;
+            border-radius: 8px;            
+            min-height: 400px;
+
+            .title-tab{
+                border-bottom: 1px solid #DDD;
+                background-color: #FFF;
+                border-radius: 8px 8px 0 0;
+                padding-bottom: 1px;
+                .nav-tabs{
+                    margin-top: 10px;
+                    border-bottom: 0;
+
+                    a {
+                        //font-weight: bold;
+                        //font-size: 16px;
+                        padding: 8px 20px;
+                    }
+					.active{
+						a{
+							background-color: #ccc;
+						}
+					}
+                }
+            }
+
+            .title{
+                border-bottom: 1px solid #DDD;
+                background-color: #F9F9F9;
+                border-radius: 8px 8px 0 0;
+                padding: 1px 20px;
+
+                h3{
+                    margin: 15px 0;
+                    font-family: @openSan-semibold;
+                    font-size: 18px;
+                    a{
+                        margin-left: 20px;
+                        font-size: 14px;
+                    }
+                }
+            }
+
+            .tiles-content{
+                padding : 10px;
+
+                .line1{
+                    margin-top: 20px;
+                    margin-bottom: 5px;
+                    min-height: 120px;
+
+                    .details{
+                        h5{
+                            font-family: @openSan-semibold;
+							font-size: 15px;
+							font-weight: bold;
+                        }
+                        h6{
+                            font-size: 15px;
+                            font-weight: bold;
+                        }
+                    }
+                }
+                .line2{
+                    padding: 0 15px;
+
+                    .dotted{
+                        padding: 10px 0;
+                        border-top: 2px dotted #DDD;
+                        border-bottom: 2px dotted #DDD;
+                    }                    
+
+                    a {
+                        display: block;
+                        margin: 5px 0;
+                        &:hover{
+                            text-decoration: none;
+                        }
+                    }
+                }
+                .line3{
+                    margin-top: 20px;
+                    ul > li{
+                        margin-left: 25px;
+                        padding-left: 5px;
+                        list-style-position: inside;
+                        list-style: none;
+                        list-style-image: url(../images/gs_main_doot-gold.png);
+                        h4{
+                            font-weight: bold;
+                            font-size: 15px;
+                            margin-bottom: 5px 0;
+                            color: #575757;
+                        }
+                    }                    
+                }
+            }            
+        }        
+    }   
+}
+
+.home-popUp-area{
+    z-index: 999;  
+    position: relative;
+
+    .home-popUp{
+        width: 90%;
+        min-height: 260px;
+        position: fixed;
+        background-color: @black;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        padding: 20px 40px;
+
+        .home-popUpClose{
+            color: @white;
+            font-size: 20px;
+            font-weight: bold;
+            margin: 20px 0;
+            display: block;
+            text-align: right;
+            &:hover{
+                text-decoration: none;
+                color: @mainColor-orange;
+            }
+        }
+
+        h2{
+            margin: 15px 0;
+            font-size: 50px;
+            color: @white;
+            font-weight: normal;
+            font-family: 'oswaldbook';
+            span{
+                color: #FEC45B;
+            }
+        }
+
+        ul{            
+            li{
+                color: @white;
+                font-size: 16px;
+                margin: 5px 0;
+            }
+        }
+
+        .btn-edit{
+
+            padding: 15px;
+            width: 90%;
+            display: block;
+            text-align: center;
+            border-radius: 10px;
+            font-size: 25px;
+            color: @black;
+
+            .btnOrange-fixed;
+
+            &:hover{
+                text-decoration: none;
+
+                .btnOrange-hover;
+            }
+        }
+
+        .free-shipping{
+            img{
+                margin: 0 auto;
+            }
+        }
+    }
+}

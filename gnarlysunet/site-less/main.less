@@ -1,0 +1,105 @@
+.container{
+    .mainPage-content{
+        margin-top: @margin-top-30;        
+        .map{
+            border: @grayborder;
+            padding: 10px;
+            border-radius: 8px;
+            margin-right: @margin-top-30;
+
+            .title{
+                background-color: @black;
+                margin: 0;
+                padding: 10px 10px;
+				font-family: @open_sansbold;
+                h2{
+                    color: @mainColor-orange;
+                    font-weight: bold;
+                    font-size: 17px;
+                    margin-top: 20px;
+                }
+                .form-control{
+                    margin: 10px 0;
+                    height: 32px;
+                }
+                .btn{   
+                    margin: 10px 0;
+                    border: 0;                 
+                    color: @white;
+                    font-size: 14px;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    padding: 6px 15px;
+
+                    .btnOrange-fixed;
+
+                    &:hover {
+                        .btnOrange-hover;
+                    }
+                }                
+            }
+            .title2{
+                margin-top: 10px;
+            }
+
+            .event-side{
+                ol > li{
+                    list-style-position: inside;
+                    font-size: 15px;
+                    margin: 10px 0;
+                    color: @mainColor-orange;                   
+                    font-weight: bold;
+
+                    p{
+                        color: #7D7D7D;
+                        font-size: 13px;
+                        font-weight: normal;
+                        line-height: 20px;
+                    }
+                }
+            }
+        }            
+    }
+
+    .mainPage-content2{
+        h1{
+            font-family: @openSan-semibold;
+            font-size: 20px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+			strong{
+				font-family: @open_sansbold;
+			}
+        }
+        
+        p{
+            font-size: 15px;
+            line-height: 22px;
+            margin-bottom: 20px;
+			color: #828282;
+        }
+
+        .map2{            
+            margin-right: 0;
+            .title h2{
+                font-size: 20px;
+            }
+        }
+        
+        h3{
+            font-size: 16px;
+            margin: 10px 0;
+            font-weight: bold;
+        }
+    }
+
+    .mainPage-sidebar{
+        img {
+            padding-top: @margin-top-30;
+        }
+    }
+
+    .foot-sidebar{
+        margin: 30px 0;
+    }
+}

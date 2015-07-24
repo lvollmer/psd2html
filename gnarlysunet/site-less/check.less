@@ -1,0 +1,434 @@
+.container{
+    .table-custom{
+        margin-top: 40px;
+        tr{
+            &:nth-child(even){
+                background: #EDEDED;
+
+                table{
+                    tr{
+                        background: #EDEDED;
+                    }
+                }
+            }
+
+            th{
+                font-family: @openSan-semibold;
+                font-size: 17px;
+                text-align: center;
+            }
+            td{
+                padding: 25px 15px;
+                text-align: center;
+
+                &:first-child{
+                    width: 60%;
+                }
+                img{
+                    margin-right: 20px;
+                }
+                .delete{                    
+                    img{
+                        float: none;
+                        margin: 0 auto;     
+                    }                   
+                }
+
+                .update{
+                    color: #FFF;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    border: 0;
+                    background: url(../images/update.jpg) repeat-x;
+                    padding: 7px 20px;
+                }
+                .thumbnail{
+                    margin-bottom: 0;
+                }
+
+                h4{
+                    font-size: 15px;
+                    font-weight: bold;
+                    margin-bottom: 5px;
+                }
+
+                b{                    
+                    font-family: @openSan-semibold;
+                    font-size: 20px;
+                    color: #196798;
+                    sub{
+                        font-size: 15px;
+                    }
+                }
+
+                table{
+                    margin-bottom: 0;
+                    tr{
+                        td{ 
+                            padding: 0;
+                            border-top: 0;
+                            text-align: left;
+                            h4{
+                                font-family: @openSan-semibold;
+                            }
+                            &:first-child{
+                                width: 100px;
+                            }                            
+                        }
+                    }                    
+                }
+                .form-control{
+                    width: 50px;
+                    text-align: center;
+                    margin-bottom: 5px;
+                    display: initial;
+                    border-radius: 0;
+                    border: 3px solid @subColor-Gray2;
+                }
+                .btn{
+                    margin-bottom: 5px;
+                }
+            }
+            .table-head{
+                background-color: @black;
+                padding: 10px 0;
+                color: @white;
+                img{
+                    float: left;
+                    margin-left: 15px;
+                }
+                h2{
+                    font-size: 20px;
+                    font-weight: bold;
+                    float: left;
+                }
+                .btn{     
+                    margin: 0 15px;
+                    border: 0;   
+                    float: right;
+                    color: @white;
+                    border-radius: 0;
+                    font-weight: bold;
+
+                    .btnOrange-fixed;
+
+                    &:hover {
+                        color: #676767;
+                    }
+                }
+            }
+        }
+    }
+
+
+    .shopping-cart-mobile{
+        margin: 20px 0;
+
+        .box-body{
+
+            border: @grayborder;
+            padding: 10px;
+
+
+            .heade{
+                background-color: @black;
+                padding: 10px 0;
+                color: @white;    
+                text-align: center;      
+                margin-bottom: 20px;
+
+                img{
+                    margin: 0 auto;
+                }
+                h2{
+                    font-size: 20px;
+                    font-weight: bold;
+                    margin: 10px 0;
+                }
+                .btn{
+                    margin: 0 15px;
+                    border: 0;
+                    color: @white;
+                    border-radius: 0;
+                    font-weight: bold;
+
+                    .btnOrange-fixed;
+
+                    &:hover {
+                        color: #676767;
+                    }
+                }
+            }
+
+
+            a{
+                color: #333;
+                &:hover{
+                    text-decoration: none;
+                }
+                .thumbnail
+                {
+                    float: left;
+                    margin-right: 20px;
+                }               
+            }
+
+            .form-control{
+                width: 50px;
+                text-align: center;
+                margin-bottom: 5px;
+                display: initial;
+                border-radius: 0;
+                border: 3px solid @subColor-Gray2;
+            }
+            .btn{
+                margin-bottom: 5px;
+            }
+
+            h4{
+                font-size: 15px;
+                font-weight: bold;
+                margin-bottom: 5px;
+            }
+
+            b{                    
+                font-family: @openSan-semibold;
+                font-size: 20px;
+                color: #196798;
+
+                sub{
+                    font-size: 15px;                    
+                }
+            }
+
+            .update{
+                color: #FFF;
+                text-transform: uppercase;
+                font-weight: bold;
+                border: 0;
+                background: url(../images/update.jpg) repeat-x;
+                padding: 7px 20px;
+            }
+
+            .bot-border{
+                display: block;
+                width: 100%;
+                border-bottom: @grayborder;
+                margin: 20px 0;
+            }
+        }
+
+    }
+
+
+    .promo-box{
+        border: @grayborder;
+        padding: 20px;
+
+        h3{
+            font-size: 15px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            font-family: @open_sansbold;
+        } 
+        .form{
+            margin: 20px 0;
+
+            .btn{
+                color: @white;
+                .btnBlack-fixed;
+                &:hover{
+                    .btnBlack-hover;
+                }
+            }
+        }
+    }
+
+    .shipping-table{
+        tr > td {
+            padding: 10px;
+            font-family: @open_sansbold;
+            .star{               
+                width: 20px;
+                height: 20px;
+                display: inline-block;
+                vertical-align: bottom;
+                margin-right: 5px;
+                background: url(../images/star.png) no-repeat;            
+            }
+            p, span {
+                font-size: 13px;
+                font-weight: bold;
+                vertical-align: middle;
+            }
+            a{
+                color: #196798;
+                text-decoration: underline;
+                &:hover{
+                    color: #676767;					
+                }
+            }
+            b{
+                font-size: 18px;
+                font-weight: bold;
+                vertical-align: middle;
+            }
+        }            
+    }
+    .safe-area{
+        .left{
+            margin-top: 20px;
+            img {
+                margin: 0 auto;
+            }            
+        }
+
+        .right{
+            margin-top: 20px;
+            .btn1{     
+                border: 0; 
+                padding: 15px;
+                width: 240px;
+                display: inline-block;
+                color: @white;
+                font-size: 14px;
+                border-radius: 4px;
+                margin-bottom: 10px;
+                text-align: center;
+
+                .btnOrange-fixed;
+
+                &:hover {
+                    color: #676767;
+                    text-decoration: none;
+                }
+            }
+
+            .btn2{
+                border: 0; 
+                padding: 15px;
+                width: 240px;
+                display: inline-block;
+                color: @white;
+                font-size: 14px;
+                border-radius: 0;
+                margin-bottom: 10px;
+                text-align: center;
+
+                background: url(../images/gs_check_keep.jpg) repeat-x;
+
+                &:hover {
+                    color: #676767;
+                    text-decoration: none;
+                }
+            }
+
+            .lock{
+                margin-top: 13px;
+                display: inline-block;
+                background: url(../images/lock.png) no-repeat;
+                width: 50px;
+                height: 60px;
+                float: left
+            }
+
+            h5 {
+                margin-top: 15px;
+                font-size: 13px;
+                font-weight: bold;
+                margin-bottom: 5px;
+                font-family: @open_sansbold;
+            }
+        }        
+    }
+
+    .border{
+        display: block;
+        width: 100%;
+        height: 15px;
+        background-color: @black;
+        margin-top: 50px;
+    }
+
+    .collections{
+        h2{
+            font-family: @open_sansbold;
+            font-size: 25px;
+            line-height: 30px;
+            margin-top: 40px;
+            margin-bottom: 10px;
+            padding-bottom: 15px;
+            border-bottom: @grayborder;
+        }
+    }
+
+    /* ----------------  Check2 --------------------- */
+
+
+    .order-area{
+        h2{
+            font-family: @open_sansbold;
+            font-size: 25px;
+            line-height: 30px;
+            margin-bottom: 20px;
+            margin: 30px 0;
+        }
+
+        .order-form{
+            h3{
+                font-size: 16px;
+                font-family: @openSan-semibold;
+                padding: 20px;
+                background-color: #868686;
+                color: @white;
+                text-transform: uppercase;
+            }
+            .form-area{
+                border: @grayborder;
+                padding: 20px;
+
+                .table-edit{
+                    width: 60%;
+                    margin: 0 auto;
+                    font-family: @open_sansbold;
+                    tr > td {
+                        &:first-child{
+                            vertical-align: middle;
+                            width: 150px;
+                        }
+                        padding: 8px 0;
+
+                        p{
+                            font-size: 13px;
+                            font-weight: bold;
+                            color: #777;
+                            sup{
+                                font-size: 10px;
+                                color: #337EB0;
+                            }
+                        }
+                        .p-code, .select{
+                            width: 300px;
+                        }
+
+                        .btn{     
+                            border: 0; 
+                            padding: 10px;
+                            width: 60%;
+                            font-size: 20px;
+                            font-weight: bold;                           
+                            color: @white;
+                            border-radius: 0;
+
+                            .btnOrange-fixed;
+
+                            &:hover {
+                                .btnOrange-hover;
+                            }
+                        }
+                    }
+                }         
+            }
+        }
+    }
+}

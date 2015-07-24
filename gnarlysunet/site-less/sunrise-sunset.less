@@ -1,0 +1,116 @@
+.sunrise-sunset{
+    margin-top: 15px;
+    .sunrise-sunset-title{
+        h2{
+            background: #000;
+            color: #FFF;
+            padding: 10px;
+            font-size: 18px;
+			font-family: @openSan-semibold;
+        }
+    }
+    .sunrise-sunset-content{
+        .ad{
+            margin-top: 30px;
+        }
+        .sunrise-sunset-content-search{
+            margin-top: 5px;
+            padding: 20px 20px 10px 20px;
+            background-color: #000;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            border-radius: 4px;
+            .form-group{
+                margin: 0;
+                input{
+                    height: 25px;
+                    border-radius: 0;
+                    padding: 0;
+                }
+                .btn{     
+                    border: 0;
+                    float: left;
+                    color: @white;
+                    font-size: 15px;
+                    -webkit-border-radius: 2px;
+                    -moz-border-radius: 2px;
+                    border-radius: 2px;
+                    padding: 0 10px;
+                    .btnOrange-fixed;
+                    &:hover {
+                        .btnOrange-hover;
+                    }
+                }
+            }
+            .search-text{
+                margin-bottom: 10px;
+            }
+        }
+        .sunrise-sunset-cities{
+            margin-top: 15px;
+            border: 1px solid #dddddd;
+            padding: 20px;
+            ul{
+                margin: 0px;
+                padding: 0px;
+                list-style: none;
+                li{
+                    float: left;
+                    width: 97px;
+                    margin: 5px 25px 5px 25px;
+                    line-height: 20px;
+                    a{
+                        &:hover{
+                            color: #ffc000;
+                            font-size: 13px;
+                            text-decoration: none;
+                            background: url(../images/bullet.png) no-repeat 0 -16px;
+                        }
+                        color: #0a5d92;
+                        font-size: 13px;
+                        text-decoration: none;
+                        padding: 0 0 0 20px;
+                        background: url(../images/bullet.png) no-repeat 0 0;						
+                    }
+                }
+            }
+            .cities-box{
+                padding-bottom: 20px;
+                border-bottom: 1px solid #ccc;
+                margin-bottom: 10px;
+            }
+            .cities-box-bottom{
+                font-weight: bold;
+                color: #0a5d92;
+                margin-bottom: 10px;
+				font-family: @open_sansbold;
+            }
+        }
+        .sunrise-sunset-bloks{
+            margin-top: 15px;
+            .sunset-blok{
+                margin-bottom: 10px;
+                h2{
+                    font-size: 16px;
+                    border-bottom: 1px solid #FC0;
+                    margin: 5px 0;
+                    padding: 0 0 10px 0;
+                    font-family: Arial;
+                    font-weight: bold;
+                }
+                p{
+                    margin: 5px 0 0 0;
+                    text-align: justify;
+                    font-family: Arial;
+                    font-weight: bold;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+    .sidebar-sunrise-sunset{
+        >div{
+            margin-bottom: 20px;
+        }
+    }
+}

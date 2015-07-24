@@ -1,0 +1,108 @@
+.carousel-box{
+    .carousel-box-title{
+        h2{
+            padding-left: 10px;
+            border-bottom: 2px solid #CCC;
+            margin-top: 15px;
+            padding-right: 100px;
+            padding-bottom: 15px;
+            font-family: Arial;
+            font-size: 18px;
+			font-weight: bold;
+            .prev, .prev2{
+                position: absolute;
+                top: 8px;
+                right: 34px;
+                height: 34px;
+                width: 27px;
+                background: url(../images/slide_btn2.jpg) left bottom;
+            }
+            .next, .next2{
+                position: absolute;
+                top: 8px;
+                right: 6px;
+                height: 34px;
+                width: 27px;
+                background: url(../images/slide_btn1.jpg) right top;
+            }
+            a{
+				color: #0a5d92;
+                &:hover{
+                    color: #676767;
+                }
+                text-decoration: none;
+            }
+        }
+    }
+    .carousel-box-content{
+        overflow: hidden;
+        margin-top: 20px;
+        .carousel{
+            visibility: visible; 
+            overflow: hidden; 
+            position: relative; 
+            z-index: 2; 
+            left: 0px;
+            max-width: 750px;
+
+            .product-col{
+                max-width: 250px;
+                margin-right:25px;
+                .img{
+                    height: 125px;
+                }
+                .carousel-image-box{
+                    max-width: 225px;
+                    .prod-info{
+                        background: #000;
+                        color: #FFF;
+                        padding: 10px 8px 10px 15px;
+                        line-height: 15px;
+                        margin: 0 0 25px 0;
+                        .phi{
+                            color: #ffc000;
+                            span{
+                                color: #a2a2a2;
+                                padding: 10px 8px 10px 0px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .carousel2{
+            visibility: visible; 
+            overflow: hidden; 
+            position: relative; 
+            z-index: 2; 
+            left: 0px;
+            width: 725px !important;
+            .product-col{
+                max-width: 120px;
+                margin-right:25px;
+                overflow: hidden; 
+                float: left; 
+                width: 120px; 
+                height:123px;
+                .carousel-image-box{
+                    max-width: 120px;
+                    .prod-info{
+                        background: #000;
+                        color: #FFF;
+                        padding: 10px 8px 10px 15px;
+                        line-height: 15px;
+                        margin: 0 0 25px 0;
+                        .pro_txt a{
+                            &:hover{
+                                color: #0a5d92;
+                            }
+                            color: #ffc000;
+                            font-style: normal;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

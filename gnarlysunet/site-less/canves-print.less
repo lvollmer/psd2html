@@ -1,0 +1,56 @@
+.pord-slideBar{
+    margin-top: 30px;
+    .panel-heading{
+        background: url(../images/h2_trigger_a.gif) repeat-x;           
+        .panel-title{
+            a {
+                position: relative;
+                display: block;
+                padding: 11px 0 11px 25px;
+                &:hover{
+                    text-decoration: none;
+                }
+                h3{       
+                    width: 155px;
+                    min-height: 33px;
+                    font-family: @openSan-semibold;
+                    font-size: 18px;
+                    text-transform: uppercase;
+                    color: @white;                        
+                }
+
+                img{
+                    position: absolute;
+                    right: -15px;
+                    top: -6px;
+                }
+            }
+        }
+    } 
+
+    .active{            
+        background: url(../images/h2_trigger_a.gif) repeat-x;
+        background-position: 0 -75px;
+    }
+
+    .panel-body{
+        background-color: @subColor-Gray2;
+        a{
+            text-align: center;
+            display: block;
+        }
+        label{
+            font-weight: bold;
+            font-size: 15px;
+
+        }
+        ul{
+            li{
+                list-style-position: inside;
+                margin: 5px 0;
+                font-size: 14px;
+                line-height: 18px;
+            }
+        }
+    }
+}

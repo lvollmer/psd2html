@@ -1,0 +1,89 @@
+.container{
+    .margin-top-30{
+        margin-top: @margin-top-30;
+    }
+    .contact-header{
+        margin-top: @margin-top-35;
+        h1{            
+            font-size: 26px;
+            color: #fefefe;
+            line-height: 70px;
+            padding-left: 25px;
+            font-weight: normal;
+            font-family: @open_sansbold;
+            background: @black;
+            -webkit-border-top-left-radius: 10px;
+            -webkit-border-top-right-radius: 10px;
+            -moz-border-radius-topleft: 10px;
+            -moz-border-radius-topright: 10px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+    }
+    .contact-left{
+        padding: 35px;
+        min-height: 600px;
+        h3{
+            font-size: 14px;
+            line-height: 26px;
+            font-family: @open_sansbold;
+            -webkit-margin-before: 1em;
+            -webkit-margin-after: 1em;
+            -webkit-margin-start: 0px;
+            -webkit-margin-end: 0px;
+            font-weight: bold;
+        }
+        h4{
+            font-size: 14px;
+            margin-top: 32px;
+            margin-bottom: 3px;
+			font-family: @open_sansbold;
+            font-weight: bold;
+        }
+        p{
+            font-size: 14px;
+            color: #737373;
+            line-height: 26px;
+        }
+    }
+    .contact-right{
+        padding: 35px;
+        background-color: @subColor-Gray2;
+        min-height: 600px;
+        h3{
+            font-size: 14px;
+            line-height: 26px;
+            font-family: @open_sansbold;
+            -webkit-margin-before: 1em;
+            -webkit-margin-after: 1em;
+            -webkit-margin-start: 0px;
+            -webkit-margin-end: 0px;
+            font-weight: bold;
+        }
+        .form-group{
+            input, select, textarea{
+                -webkit-border-radius: 0px;
+                -moz-border-radius: 0px;
+                border-radius: 0px;
+            }
+            textarea{
+                height: 138px;
+            }            
+        }
+        .btn{     
+            border: 0;
+            float: left;
+            color: @white;
+            font-size: 18px;
+            font-weight: bold;
+            -webkit-border-radius: 2px;
+            -moz-border-radius: 2px;
+            border-radius: 2px;
+            padding: 10px 30px;
+            .btnOrange-fixed;
+            &:hover {
+                .btnOrange-hover;
+            }
+        }
+    }
+}

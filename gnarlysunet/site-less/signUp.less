@@ -1,0 +1,113 @@
+.container{
+    .signup-content{
+        margin-top: 40px;
+        h1{
+            font-weight: bold;
+            font-size: 26px;
+            background-color: @black;
+            color: @white;
+            padding: 25px;
+            border-radius: 10px 10px 0 0;
+			font-family: @open_sansbold;
+        }
+        .tile-body{
+            border: @grayborder;
+            border-radius: 0 0 10px 10px;
+            .left{                
+                .details{
+                    padding: 30px 10px 30px 27px;
+					p{
+						font-size: 14px;
+						color: #737373;
+					}
+                    h5{
+                        margin-top: 20px;
+                        margin-bottom: 10px;
+                        font-size: 16px;
+                        font-weight: bold;
+						font-family: @open_sansbold;
+                    }
+
+                    .numa{
+                        margin: 20px 0;
+                        text-align: center;
+                        padding: 20px;
+                        min-width: 175px;
+                        min-height: 290px;   
+                        border: @grayborder;
+                        background-color: #fbfbfb;
+
+                        h2{
+                            font-size: 17px;
+                            font-weight: bold;
+                            margin-bottom: 30px;
+                            margin-top: 40px;
+                        }        
+
+                        span{
+                            display: block;
+                            width: 42px;
+                            height: 39px;
+                            margin: 0 auto;
+                            margin-top: -40px;
+                        }
+                        img{
+                            margin: 0 auto;
+                        }
+                    }
+
+                    .numa1{
+                        background: url(../images/number-1.png) no-repeat;
+                    }
+                    .numa2{
+                        background: url(../images/number-2.png) no-repeat;
+                    }
+                    .numa3{
+                        background: url(../images/number-3.png) no-repeat;
+                    }
+                }                         
+            }
+
+            .right{
+                .reg-form{
+                    border-left: @grayborder;
+                    min-height: 625px;
+                    font-size: 15px;
+                    padding: 10px 45px;
+                    background-color: #F6F6F6;
+
+                    label{
+                        margin-top: 8px;
+                        margin-bottom: 5px;
+                    }
+
+                    .form-control{
+                        border-radius: 0;
+                        height: 35px;
+                    }
+
+                    .checkbox{
+                        label{
+                            font-size: 13px;
+                        }
+                    }
+
+                    .btn{     
+                        border: 0;   
+                        width: 60%;
+                        color: #FFF;
+                        font-size: 20px;
+                        font-weight: bold;
+                        border-radius: 0;
+
+                        .btnOrange-fixed;
+
+                        &:hover {
+                            .btnOrange-hover;
+                        }
+                    }
+                }                
+            }
+        }
+    }
+}

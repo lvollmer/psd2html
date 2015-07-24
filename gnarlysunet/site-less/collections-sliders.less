@@ -1,0 +1,72 @@
+.collections-sliders {
+    .ocean h3 {
+        font-size:18px;
+        margin-bottom: 10px;
+        margin-top: 30px;
+		font-family: @open_sansbold;
+    }
+    .ocean span {
+        font-size:14px;
+        color:#a9a9a9;
+    }
+    .picarea {
+        width: 92%;
+        background:#FFF;
+        border:1px solid #e4e4e4;
+        margin-top:15px;
+        position:relative;
+        padding:10px;
+    }
+    .picarea img {
+        margin-left:10px;
+    }
+    .fort {
+        width:18px;
+        height:18px;
+        position:absolute;
+        top:60px;
+        left:5px;
+        display:block;
+        font-size:0;
+        background:url(../images/prev-arrow.png) no-repeat;
+    }
+    .back {
+        width:21px;
+        height:18px;
+        position:absolute;
+        top:65px;
+        right:-4px;
+        display:block;
+        font-size:0;
+        background:url(../images/next-arrow.png) no-repeat;
+    }
+    .fort:hover,.back:hover{
+        background-position:0 -18px;	
+    }	
+    .btmslide{
+        position:relative;
+        overflow:hidden;
+        min-height:135px;	
+    }
+    .most .btmslide{
+        height:246px;
+    }
+    .coll .btmslide{
+        width:445px;
+        overflow:hidden;
+    }
+    .slidePart{
+        position:absolute;
+        left:0;
+        top:0;
+        width:20000px;
+    }
+    .slidePart dd{
+        float:left;
+        margin-right:1px;
+    }
+    .four,.bfour,.three,.bthree,.two,.btwo,.fort,.back{
+        cursor:pointer;
+    }
+
+}

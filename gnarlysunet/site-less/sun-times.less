@@ -1,0 +1,150 @@
+.container{
+    .bredcumb{
+        margin-top: 40px;
+        margin-bottom: 20px;
+        a{
+            color: #424141;
+            margin: 0 10px;
+        }
+        .active{
+            color: #0A5D92;
+        }
+    }
+    
+    .sunTime-sideBar{
+        margin-top: @margin-top-30;
+    }
+
+    .sunTime-content{
+        margin-top: @margin-top-35;
+        h2{
+            font-weight: bold;
+            font-size: 17px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid @mainColor-orange;
+            margin-bottom: 20px;
+        }
+        h3{
+            font-family: @openSan-semibold;
+            font-size: 17px;
+            color: #515151;
+            padding: 20px 0 20px 35px;
+            background: url(../images/watch.png) no-repeat left;
+        }
+        .sunTime-box{
+            margin-top: @margin-top-30;
+            border: @grayborder;
+            border-radius: 8px;
+            padding: 10px;
+        }
+
+        .right-add{
+            margin: 40px 0;
+        }
+
+        .sunTime-box{
+            margin-bottom: 20px;
+            .box{
+                text-align: center;
+                border: @grayborder;
+                padding: 10px;
+                border-radius: 5px;
+                background-color: @subColor-Gray2;
+				font-family: @openSan-semibold;
+                p{
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+					color: #7d7d7d;
+                }
+                span{
+                    font-weight: bold;
+                    font-size: 25px;
+                    line-height: 25px;
+                    color: @mainColor-orange;
+                }
+            }
+
+            .box-con{
+                ul > li{
+                    list-style: none;
+                    list-style-position: inside;
+                    font-size: 11px;
+                    margin: 2px;
+                }
+            }
+        }
+
+        .calender-content{
+            h5{
+                font-weight: bold;
+                font-size: 15px;
+            }
+            border: @grayborder;
+            padding: 25px;
+            text-align: center;
+
+            .calender{
+                margin: 25px;
+                h2{
+                    text-align: center;
+                    font-size: 25px;
+                    padding: 20px;
+                    background: #000;
+                    color: #FFF;
+                    border-bottom: 0;
+                    margin-bottom: 0;
+                }
+                table{
+
+                    .head{
+                        td{
+                            background-color: #ddd;
+                        }                            
+                    }
+
+                    tr{
+                        text-align: center;
+                        display: table-row;
+                        vertical-align: inherit;
+                        border-color: inherit;                       
+
+                        .unactive {
+                            background: #F4F4F4;
+                        }
+                        td{                           
+                            border-collapse: collapse;
+                            vertical-align: middle;
+                            &:hover{
+                                background-color: #FFEA6F;
+                            }
+
+                            a{                                
+                                text-decoration: none;
+                            }
+                            b{
+                                color: #0A5D92;
+                                font-size: 35px;
+                            }
+                            span{
+                                font-size: 10px;
+                                color: #666;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .featured-sliders{
+        margin-top: 40px;
+    }
+
+    .sidebar-area{        
+        margin-top: 40px;
+        img{
+            margin: 0 auto;
+        }
+    }
+}

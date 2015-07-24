@@ -1,0 +1,134 @@
+.container{
+    .text-center{
+        img{
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    .black-title{
+        background-color: @black;
+		color: @white;
+    }
+	.hor-space{
+		width: 100%;
+		height: 15px;
+	}
+    .hour-forcast-left{
+        .max-width{
+            max-width: 300px;
+            margin-left: auto;
+            margin-right: auto;            
+            .black-title{                
+                padding: 10px;                
+            }
+            h3{
+                font-size: 15px;
+                font-weight: bold;
+            }
+			.twitter{
+				margin-top: 20px;
+			}
+        }
+    }
+	.hour-forcast-right{
+		.max-width{
+			max-width: 700px;
+			margin-left: auto;
+			margin-right: auto;
+			.black-title{                
+                padding: 15px;
+            }
+			h2{
+				font-size: 20px;
+			}
+			.vtab{
+				.vtab-left{
+					background-color: #424242;
+					height: 760px;
+					ul{
+						padding: 10px;
+						li{
+							list-style: none;
+							color: @dark-orange;
+							line-height: 30px;
+							cursor: pointer;							
+						}
+						.selected{
+							color: @white;
+						}
+					}
+				}
+				.vtab-right{
+					height: 760px;
+					.vtab-right-title{
+						color: #000;
+						font-size: 18px;
+						border-bottom: 2px solid #ffc000;
+						margin-top: 0;
+						line-height: 40px;
+						span{
+							color: #898989;
+							font-size: 12px;
+							line-height: 10px;
+						}
+					}
+					table{
+						margin-top:10px;
+						tr{
+							td, th{
+								display: table-cell;
+								vertical-align:top;								
+							}
+						}
+					}
+					.nxt{
+						float: right;
+					}
+				}
+			}
+			.search-section{
+				background-color: @black;
+				margin-top: 5px;
+				-webkit-border-radius: 3px;
+				-moz-border-radius: 3px;
+				border-radius: 3px;				
+				.search-section-left{
+					border-right: #ffc000 solid 1px;
+					h2{
+						padding: 15px;
+						color: @dark-orange;
+					}
+				}
+				.search-section-center{
+					padding-top: 10px;
+					input{
+						-webkit-border-radius: 0px;
+						-moz-border-radius: 0px;
+						border-radius: 0px;
+						height: 25px;
+						width: 90%;
+						margin: 0 auto;
+					}
+				}
+				.search-section-right{
+					padding-top: 7px;
+					.btn{     
+                        border: 0;
+                        color: @white;
+                        font-size: 11px;                        
+						height: 30px;
+                        .btnOrange-fixed;
+
+                        &:hover {
+                            .btnOrange-hover;
+                        }
+						margin-bottom: 5px;
+                    }
+				}
+			}
+			.hour-forcast-right-bottom{
+				margin-top: 20px;
+			}
+		}
+	}
+}

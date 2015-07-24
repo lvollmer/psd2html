@@ -1,0 +1,219 @@
+.container{
+    .blog-content{
+        margin-top: 30px;
+        border: @grayborder;
+        border-radius: 8px;
+        padding: 20px;
+        min-height: 320px;
+
+        h2{
+            font-family: @open_sansbold;
+            font-size: 25px;
+            line-height: 30px;
+            margin-bottom: 20px;
+        }
+
+        .sociallink{
+            margin-bottom: 20px;
+            a{
+                margin: 0 5px;
+            }
+        }
+
+        .details{
+            img{
+                margin-right: 20px;
+                float: left;
+            }
+            p{
+                margin: 5px 0;
+                font-size: 13px;
+                line-height: 20px;
+				font-family: @openSan-semibold;
+				color: #919191;
+                a {
+                    font-size: 14px;
+                    font-weight: bold;
+					font-family: @open_sansbold;
+					color: #0a5d92;
+                    &:hover{
+                        text-decoration: none;
+                        color: @mainColor-orange;
+                    }
+                }
+            }
+        }
+
+        .foot{
+            margin: 0;
+            border-top: @grayborder;
+            padding-top: 20px;
+
+            p {
+                text-align: center;
+                font-style: italic;
+				color: #bfbfbf;
+				height: 13px;
+				margin: 9px 0 0;
+				font: normal 13px/13px Arial;
+				span{
+					color: #0a5d92;
+					font-style: italic;
+				}
+            }
+        }
+
+        .head{
+            margin-bottom : 20px;
+            ul > li {
+                list-style: none;
+                float: left;
+                border-left: @grayborder;
+                font-style: italic;
+                font-size: 14px;
+                padding: 0 20px;
+				color: #bfbfbf;
+				span{
+					color: #0a5d92;
+				}
+                &:first-child {
+                    border-left: none;
+                    padding-left: 0;
+                }
+            }
+        }
+    }
+
+    .comments-area{
+        margin-top: 30px;
+        border: @grayborder;
+        border-radius: 8px;
+        min-height: 200px;
+
+        h2{
+            font-family: @openSan-semibold;
+            font-size: 25px;
+            line-height: 30px;
+            margin: 20px 20px 0;            
+        }
+
+        .comment{
+            padding: 30px 20px;
+            border-bottom: @grayborder;   
+
+            &:last-child {
+                border-bottom: 0
+            }
+            img {
+                float: left;
+                margin-right: 20px;
+            }
+
+            h4{
+                margin-bottom: 10px;
+                b{
+                    font-weight: bold;
+                    font-size: 15px;
+                    margin-right: 20px;
+					font-family: @open_sansbold;
+                }
+                span{
+                    font-weight: bold;
+                    color: #9A8882;
+                    font-size: 14px;
+                }
+                em{
+                    margin: 0 20px;
+                }                
+                a{
+                    font-size: 15px;
+					color: #0a5d92;
+					font-family: @open_sansbold;
+                }
+
+            }
+
+            p{
+                font-size: 15px;
+                line-height: 20px;
+            }
+        }
+
+        .sub{            
+            background-color: #FFFBF0;
+            img{
+                margin-left: 30px;
+            }
+        }
+    }    
+
+    .commentForm-area{
+        position: relative;
+        margin-top: 30px;
+        border: @grayborder;
+        border-radius: 8px;
+        min-height: 300px;
+        padding: 20px;
+
+        .top-arrow {
+            img{
+                position: absolute;
+                margin: 0 auto;
+                left: 0;
+                right: 0;
+                top: -22px;
+            }
+        }
+
+        h2{
+            font-family: @open_sansbold;
+            font-size: 25px;
+            line-height: 30px;
+            margin-bottom: 20px;            
+        }
+
+        h6{
+            font-size: 15px;
+            //font-weight: bold;
+            line-height: 20px;
+        }
+
+        .form{
+            margin-top: 30px;
+
+            .form-control{
+                border-radius: 0;
+            }
+
+            .btn{     
+                border: 0;   
+                width: 25%;
+                float: right;
+                color: @white;
+                font-size: 15px;
+                border-radius: 0;
+
+                .btnOrange-fixed;
+
+                &:hover {
+                    .btnOrange-hover;
+                }
+            }
+        }
+    }
+
+    .pagination-area{
+
+        margin: 20px 10px;
+
+        ul > li{
+            list-style: none;
+            float: left;
+            margin: 0 5px;
+
+            a {
+                margin-top: 20px;
+            }
+        }
+    }
+}
